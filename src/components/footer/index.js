@@ -7,6 +7,8 @@ export default class Footer extends Component {
         super(props);
     }
     toPage(url) {
+
+
         
         sessionStorage.setItem("current", url.key);
         this.props.history.push(url.path);
