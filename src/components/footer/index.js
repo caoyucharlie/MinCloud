@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { BackTop } from 'antd';
+import newLogo from "../../img/enfinewlogo.png";
+import transverseLogo from "../../img/transverse_logo.png";
 import "./index.less";
 
 export default class Footer extends Component {
@@ -14,8 +16,12 @@ export default class Footer extends Component {
         return (
             <div className="footer_wrapper">
                 <BackTop />
+                <div className="logo-box">
+                    <img className="logo-kyy" src={newLogo} />
+                    <img className="logo-enfi" src={transverseLogo} />
+                </div>
                 <div className="footer_bottom tc">
-                    <div>
+                    <div className="tc_box">
                         <div className="footTitle big">
                             <span>平台产品</span>
                             <span></span>
