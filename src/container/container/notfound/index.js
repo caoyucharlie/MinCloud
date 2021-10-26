@@ -13,7 +13,7 @@ class noMatch extends Component {
         const { match } = this.props;
         return (
             <div className="body_content">
-                <DetailHeader history={this.props.history}></DetailHeader>
+                {/* <DetailHeader history={this.props.history}></DetailHeader> */}
                 <Headernav match={match}></Headernav>
                 <div className="page_search">
                     <div className="f_img"></div>

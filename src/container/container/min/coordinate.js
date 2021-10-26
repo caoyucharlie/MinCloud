@@ -30,17 +30,6 @@ class Mincoordinate extends Component {
     }
     GoPrint() {
         window.location.href = "http://digital.miningcloud.com.cn:8032";
-		// TOOLS.get("user/is_logined/").then(res => {
-		// 	if (res.status === 200) {
-		// 		if (res.data.is_logined === true) {
-		// 			window.location.href = "http://218.249.43.70:8032/"
-		// 		} else {
-		// 			this.props.history.push("/login") 
-		// 			// 页面刷新
-		// 			window.location.reload()
-		// 		}
-		// 	}
-		// })
 	}
     toUrl(e) {
         this.props.history.push(e);
@@ -55,27 +44,9 @@ class Mincoordinate extends Component {
 							<div className="title"><h2>MIM协同平台</h2></div>
 							<div className="text"><p>以项目为核心的数字化交付，全流程协同工作</p></div>
                             <div className="link"><Button size={size} type="primary" onClick={e => this.GoPrint()} id="customBtn" type="primary">立即使用</Button></div>
-						</div>
+                        </div>
 					</div>
-                    {/* <div className="info">
-                        <div className="title"><h2>MIM协同平台</h2></div>
-                        <div className="text"><span>以项目为核心的数字化交付，全流程协同工作</span></div>
-                        <div className="link"><Button size={size} type="primary" onClick={e => this.GoPrint()} id="customBtn" type="primary">立即使用</Button></div>
-                        {/* <div className="linkHref">
-                            <Row>
-                                <Col className="ant-col" span={7}></Col>
-                                <Col className="ant-col" span={10}>
-                                    <Row>
-                                        <Col className="ant-col" span={6}><div><span data-url ="/container/consultDesign"  className="links" onClick={e=> this.toUrl('/container/consultDesign')}>MIM咨询设计</span></div></Col>
-                                        <Col className="ant-col" span={6}><div><span data-url ="/container/coordinate"  className="links" onClick={e=> this.toUrl('/container/coordinate')}>MIM协同平台</span></div></Col>
-                                        <Col className="ant-col" span={6}><div><span data-url ="/container/min3DMine"  className="links" onClick={e=> this.toUrl('/container/min3DMine')}>矿山三维管控平台</span></div></Col>
-                                        <Col className="ant-col" span={6}><div><span data-url ="/container/minvam"  className="links" onClick={e=> this.toUrl('/container/minvam')}>VR/AR/MR</span></div></Col>
-                                    </Row>
-                                </Col>
-                                <Col className="ant-col" span={7}></Col>
-                            </Row>
-                        </div> */}
-                    {/* </div>  */}
+
                 </div>
 
                 <div className="server" style={{ height: "auto", backgroundColor: '#fff' }}>

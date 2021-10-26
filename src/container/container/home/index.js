@@ -81,7 +81,7 @@ class Home extends Component {
         const { Newzn, Newgj } = this.state;
         return (
             <div className="body_content">
-                <DetailHeader history={this.props.history}></DetailHeader>
+                {/* <DetailHeader history={this.props.history}></DetailHeader> */}
                 <Headernav match={match} history={this.props.history}></Headernav>
                 <div className="page_home">
                     <div className="banner cloud">

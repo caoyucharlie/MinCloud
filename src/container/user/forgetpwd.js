@@ -191,7 +191,7 @@ class ForgetPwd extends Component  {
         const {vcodeCount,phoneReady,errMsg}=this.state
 		return(
 		    <div className="login-body">
-                <DetailHeader history={this.props.history}/>
+                {/* <DetailHeader history={this.props.history}/> */}
                 <div className="forgetForm">
                     <p className="steps-login"><img src={require("../../img/logo.png")}/></p>
                     <div className="forget-item">
