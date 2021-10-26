@@ -116,6 +116,32 @@
         background: url('../../img/coordinate.jpg');
     	.coordinateInfo{
             position: relative;
+            .menu{
+                position: absolute;
+                display: flex;
+                padding: 0 60px;
+                justify-content: space-around;
+                z-index: 999;
+                width: 600px;
+                min-width: 600px;
+                height: 80px;
+                top: 381px;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #ffffff;
+                border-radius: 8px;
+                div{
+                    cursor: pointer;
+                }
+                .icon{
+                    padding: 10px 0;
+                }
+                    span{
+                        color: #333333;
+                    }
+            }
             .innerText{
                 position: absolute;
                 top: 0;
@@ -148,6 +174,8 @@
 						height: 40px;
                     }
 				}
+
+
             }
         }
     }

@@ -416,7 +416,7 @@ class RegistrationForm extends React.Component {
             }];
         return (
             <div className="login-body">
-                <DetailHeader history={this.props.history}></DetailHeader>
+                {/* <DetailHeader history={this.props.history}></DetailHeader> */}
                 <div className="page_register">
                     <Spin spinning={this.state.loading}>
                         <Steps current={current}>
