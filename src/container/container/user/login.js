@@ -20,6 +20,8 @@ class Login extends Component  {
     }
     componentWillMount() {
         this.getCookie();
+        document.cookie = "user_from_mianPage=http://www.miningcloud.com.cn/console;domain=miningcloud.com.cn"
+        window.location.href = "http://digital.miningcloud.com.cn:8031?ser_from_mianPage=http://www.miningcloud.com.cn/console"		
     }
 
     componentDidMount() {
